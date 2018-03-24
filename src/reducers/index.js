@@ -41,7 +41,7 @@ import {
   },
 };
 
-const calendar = (state=initialCalendarState, action){
+const calendar = (state=initialCalendarState, action)=> {
   const { day, recipe, meal, type } = action;
 
   switch(type){
